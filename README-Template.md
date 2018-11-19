@@ -26,7 +26,7 @@ A. iOS Device(10.0 and Up), Android Device, Windows (Tested on Chrome,Firefox an
 
 
 ### Video Demo
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[!](https://www.youtube.com/watch?v=HEd4S-fE0I8)
 
 
-### User Comments
+### Feedback and Bugs reporting
