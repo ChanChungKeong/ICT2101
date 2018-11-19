@@ -26,7 +26,9 @@ A. iOS Device(10.0 and Up), Android Device, Windows (Tested on Chrome,Firefox an
 
 
 ### Video Demo
-[!](https://www.youtube.com/watch?v=HEd4S-fE0I8)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=v=HEd4S-fE0I8
+" target="_blank"><img src="http://img.youtube.com/vi/v=HEd4S-fE0I8/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
 ### Feedback and Bugs reporting
