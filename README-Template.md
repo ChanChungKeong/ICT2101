@@ -14,10 +14,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisite (FAQ)
 
-What things you need to install the software and how to install them
+Q. Currently what platform support the AMS System?
 
 ```
-What web browser supports the AMS System?
+A. iOS Device(10.0 and Up), Android Device, Windows (Tested on Chrome,Firefox and IE)
 ```
 
 ### Installing (Usage)
