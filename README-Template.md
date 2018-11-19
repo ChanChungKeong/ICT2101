@@ -24,8 +24,9 @@ Q. Currently what platform support the AMS System?
 A. iOS Device(10.0 and Up), Android Device, Windows (Tested on Chrome,Firefox and IE)
 ```
 
-### Video Demo
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+### Video Demo
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+
+### User Comments
