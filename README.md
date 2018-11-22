@@ -15,21 +15,21 @@ aFrame is a web framework that is used for this project to build on the virtual 
 ## Getting Started (Usage of Player and SCTF Members, Include some screencaps)
 
 [Player]
-When player acc
+
 ![Starting the game](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/master/screenshots/Startgame.png)
 Player will start the game by selecting the "Start Game" box
 
-![Selecting vehicle](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/tree/master/screenshots/selectvehicle.png)
+![Selecting vehicle](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/master/screenshots/selectvehicle.png)
 Player will move forward to the selection screen, to select which vehicle to play as either a "Bicycle = Cyclist" or "PMD = Personal Mobility Device Rider".
 
-![Questions for the game](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/tree/master/screenshots/question.png)
+![Questions for the game](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/master/screenshots/question.png)
 Player will be shown a video showing a scenario related to whichever vehicle they select, with a question to comment on the behavior of the action.
 Player will select if the action was correct or incorrect
 
-![Correct answer with explaination](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/tree/master/screenshots/modalanswer.png)
+![Correct answer with explaination](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/master/screenshots/modalanswer.png)
 The modal answer with a short description will be shown to educate them on the safety measures
 
-![End game](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/tree/master/screenshots/endgame.png)
+![End game](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/master/screenshots/endgame.png)
 Once player has ended the level, they will be shown a Thank you for playing screen.
 
 [Admin]
