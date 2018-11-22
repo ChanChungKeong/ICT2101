@@ -10,11 +10,20 @@ Active Mobility Safety (AMS) VR educates safe riding practices to cyclists and p
 Project Milestone 1 (M1)  Process Plan and Software Requirement Specifications. Developer teams will organize themselves and deliver a process plan document. It comprises: (1) team organization, (2) process description, (3) effort estimation and (4) project schedule. Developer teams will refine and specify user requirements in the form of a Software Requirements Specifications Document , comprising of: (1) User Requirements, (2) System Requirements and (3) Team Reflection.
 
 ## Project Framework
-aFrame blah blah....
+aFrame is a web framework that is used for this project to build on the virtual reality (VR) experience. It is based on top of HTML and accessible by a web/mobile browser application. Mobile devices which supports VR will be able to use headsets such as google cardboard to play the game. 
 
 ## Getting Started (Usage of Player and SCTF Members, Include some screencaps)
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+![Starting the game](https://github.com/ChanChungKeong/ICT2101/tree/master/ICT2101%20screenshots/Startgame.png)
+
+![Selecting vehicle](https://github.com/ChanChungKeong/ICT2101/tree/master/ICT2101%20screenshots/selectvehicle.png)
+
+![Questions for the game](https://github.com/ChanChungKeong/ICT2101/tree/master/ICT2101%20screenshots/question.png)
+
+![Correct answer with explaination](https://github.com/ChanChungKeong/ICT2101/tree/master/ICT2101%20screenshots/modalanswer.png)
+
+![End game](https://github.com/ChanChungKeong/ICT2101/tree/master/ICT2101%20screenshots/Thank you for playing.png)
 
 ### Prerequisite (FAQ)
 
@@ -22,6 +31,12 @@ Q. Currently what platform support the AMS System?
 
 ```
 A. iOS Device(10.0 and Up), Android Device, Windows (Tested on Chrome,Firefox and IE)
+```
+
+Q. How do i access the game?
+
+```
+A. Access the game via this link: http://ict2x01group4.tk/
 ```
 
 
