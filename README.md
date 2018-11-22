@@ -45,7 +45,7 @@ A. iOS Device(10.0 and Up), Android Device, Windows (Tested on Chrome,Firefox an
 Q. How do i access the game?
 
 ```
-A. Access the game via this link: <a href="http://ict2x01group4.tk/" target="_blank">here</a>
+A. Access the game via this link: [here](http://ict2x01group4.tk/)
 ```
 
 
