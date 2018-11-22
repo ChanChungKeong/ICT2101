@@ -53,3 +53,20 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
 ### Feedback and Bugs reporting
+
+
+<body>
+
+<form action="/action_page.php" id="usrform">
+  Name: <input type="text" name="usrname">
+  <input type="submit">
+</form>
+<br>
+<textarea rows="4" cols="50" name="comment" form="usrform">
+Enter text here...</textarea>
+
+<p>The text area above is outside the form element, but should still be a part of the form.</p>
+
+<p><b>Note:</b> The form attribute is not supported in IE.</p>
+
+</body>
