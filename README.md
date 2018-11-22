@@ -54,4 +54,6 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ### Feedback and Bugs reporting
 
+Post your issues or bugs here:
+https://github.com/ChanChungKeong/ICT2101/issues/new
 
