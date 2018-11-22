@@ -14,16 +14,25 @@ aFrame is a web framework that is used for this project to build on the virtual 
 
 ## Getting Started (Usage of Player and SCTF Members, Include some screencaps)
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-![Starting the game](https://github.com/ChanChungKeong/ICT2101/tree/master/ICT2101%20screenshots/Startgame.png)
+[Player]
+When player acc
+![Starting the game](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/master/screenshots/Startgame.png)
+Player will start the game by selecting the "Start Game" box
 
-![Selecting vehicle](https://github.com/ChanChungKeong/ICT2101/tree/master/ICT2101%20screenshots/selectvehicle.png)
+![Selecting vehicle](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/tree/master/screenshots/selectvehicle.png)
+Player will move forward to the selection screen, to select which vehicle to play as either a "Bicycle = Cyclist" or "PMD = Personal Mobility Device Rider".
 
-![Questions for the game](https://github.com/ChanChungKeong/ICT2101/tree/master/ICT2101%20screenshots/question.png)
+![Questions for the game](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/tree/master/screenshots/question.png)
+Player will be shown a video showing a scenario related to whichever vehicle they select, with a question to comment on the behavior of the action.
+Player will select if the action was correct or incorrect
 
-![Correct answer with explaination](https://github.com/ChanChungKeong/ICT2101/tree/master/ICT2101%20screenshots/modalanswer.png)
+![Correct answer with explaination](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/tree/master/screenshots/modalanswer.png)
+The modal answer with a short description will be shown to educate them on the safety measures
 
-![End game](https://github.com/ChanChungKeong/ICT2101/tree/master/ICT2101%20screenshots/Thank you for playing.png)
+![End game](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/tree/master/screenshots/endgame.png)
+Once player has ended the level, they will be shown a Thank you for playing screen.
+
+[Admin]
 
 ### Prerequisite (FAQ)
 
@@ -36,7 +45,7 @@ A. iOS Device(10.0 and Up), Android Device, Windows (Tested on Chrome,Firefox an
 Q. How do i access the game?
 
 ```
-A. Access the game via this link: http://ict2x01group4.tk/
+A. Access the game via this link: <a href="http://ict2x01group4.tk/" target="_blank">here</a>
 ```
 
 
