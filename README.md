@@ -31,6 +31,32 @@ Once player has ended the level, they will be shown a Thank you for playing scre
 
 [Admin]
 
+![Go to admin page](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/master/screenshots/admin.png)
+Admin will select the "SCTF Admin Login" to gain access to the management system
+
+![Login page](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/master/screenshots/login.png)
+Admin will type in the username = "admin" and password = "password" to enter the system 
+
+![Dashboard system](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/master/screenshots/dashboard.png)
+Admin will then see the main dashboard of the management system
+
+### Manage question
+![Manage quiz](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/master/screenshots/managequiz.png)
+Admin can manage questions at the manage quiz page 
+
+![Add question](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/master/screenshots/addquestion.png)
+Admin is able to add question using this screen
+
+![Delete question](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/master/screenshots/deletequestion.png)
+Admin is able to delete any question
+
+![Edit question](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/master/screenshots/editquestion.png)
+Admin is able to edit any question 
+
+### Manage Environment
+![Manage Environment](https://raw.githubusercontent.com/ChanChungKeong/ICT2101/master/screenshots/manageenvironment.png)
+Admin is able to edit the different number of objects in the game.
+
 ### Prerequisite (FAQ)
 
 Q. Currently what platform support the AMS System?
