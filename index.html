@@ -1,35 +1,21 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
-<meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
 
-<style>
-  #startButt {
-    animation: blinker 1s linear infinite;
-  }
-
-  @keyframes blinker {
-    50% {
-      opacity: 0;
-    }
-  }
-</style>
 
 <!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/0.7.1/aframe.min.js"></script>
-
-<script src="js/howler.js"></script>
-
+<script src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Faframe.min.js?1542861464111"></script>
 <script type="text/javascript">
+
   AFRAME.registerComponent('start-game', {
     init: function() {
-      
+
       var bicycle_model = document.querySelector("#bicycle_model");
       bicycle_model.setAttribute("visible", false);
-      
+
       var scooter_model = document.querySelector("#scooter_model");
       scooter_model.setAttribute("visible", false);
-      
+
       var firstpmd = document.querySelector("#pmd_location1");
       var secondpmd = document.querySelector("#pmd_ans_1_yes");
       var thirdpmd = document.querySelector("#pmd_ans_1_no");
@@ -198,6 +184,8 @@
 
       //  this.display = document.querySelector("#display");
       this.el.addEventListener("click", this.onClick.bind(this));
+      
+      
     },
     onClick: function() {
       var otherBox = document.querySelector('#personView');
@@ -209,24 +197,16 @@
     }
   });
 
-  AFRAME.registerComponent('alpha-test', {
-    dependencies: ['material'],
-    init: function() {
-      this.el.getObject3D('mesh').material.alphaTest = 0.5;
-    }
-  });
-
-
   AFRAME.registerComponent('pmd', {
     init: function() {
       this.el.addEventListener("click", this.onClick.bind(this));
     },
     onClick: function() {
-      
+
       var scooter_model = document.querySelector("#scooter_model");
       scooter_model.setAttribute("visible", true);
-     
-      
+
+
       var pmd_method = document.querySelector('#personView');
       pmd_method.emit('general_qns1');
 
@@ -268,13 +248,16 @@
 
   AFRAME.registerComponent('pmd_play_1', {
     init: function() {
-      this.el.addEventListener("click", this.onClick.bind(this));
-    },
-    onClick: function() {
-      var vid = document.getElementById('pmd_1');
-      vid.play();
+      
+
+      var videoEl_1 = document.querySelector('#pmd_1');
+       this.el.addEventListener('click', () => {
+
+        videoEl_1.play();
+      })
     }
   });
+  
 
   AFRAME.registerComponent('pmd_1_contiune', {
     init: function() {
@@ -479,10 +462,10 @@
       this.el.addEventListener("click", this.onClick.bind(this));
     },
     onClick: function() {
-      
-       var bicycle_model = document.querySelector("#bicycle_model");
+
+      var bicycle_model = document.querySelector("#bicycle_model");
       bicycle_model.setAttribute("visible", true);
-      
+
       var pmd_method = document.querySelector('#personView');
       pmd_method.emit('bicycle');
 
@@ -733,12 +716,10 @@
           <a-animation begin="fusing" easing="ease-in" attribute="scale" fill="backwards" from="1 1 1" to="0.2 0.2 0.2" dur="1500"></a-animation>
         </a-entity>
       </a-camera>
-      <a-entity id="bicycle_model" rotation="0 90 0" scale="0.25 0.25 0.25" position="0 -0.6 -0.85"
-                collada-model="image/bicycle.dae"></a-entity>
-      
-      <a-entity id="scooter_model" rotation="0 0 0" scale="0.2 0.2 0.2" position="0 1.36 -0.85"
-                collada-model="image/scooter.dae"></a-entity>
-      
+      <a-entity id="bicycle_model" rotation="0 90 0" scale="0.25 0.25 0.25" position="0 -0.6 -0.85" collada-model="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Fbicycle.dae?1542861427872"></a-entity>
+
+      <a-entity id="scooter_model" rotation="0 0 0" scale="0.2 0.2 0.2" position="0 1.36 -0.85" collada-model="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Fscooter.dae?1542861427881"></a-entity>
+
       <a-animation attribute="position" begin="forward" delay="10" dur="10000" fill="forwards" to="0 2 -20"></a-animation>
 
       <a-animation attribute="position" begin="general_qns1" delay="10" dur="10000" fill="forwards" to="0 2 -45"></a-animation>
@@ -786,14 +767,14 @@
     <!--   Light Gray Path -->
     <a-plane id="pedestrainPath" position="-5 0 0" rotation="-90 0 0" scale="1 20 1" width="10" height="60" color="#FFF"></a-plane>
     <a-assets>
-      <img id="walkpath" src="arrow-up.jpg">
+      <img id="walkpath" src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Farrow-up.jpg?1542861489058">
     </a-assets>
     <a-image id="pedestrainImg" src="#walkpath" position="-5 0.1 0" rotation="-90 0 0" width="6" height="6"></a-image>
 
     <!--   Red Path -->
     <a-plane id="redPath" position="5 0 0" rotation="-90 0 0" scale="1 20 1" width="10" height="60" color="#FFF"></a-plane>
     <a-assets>
-      <img id="bike" repeat="indefinite" src="arrow-up.jpg">
+      <img id="bike" repeat="indefinite" src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Farrow-up.jpg?1542861489058">
     </a-assets>
     <a-image id="bikeImg" src="#bike" position="5 0.1 0" rotation="-90 0 0" width="7" height="7"></a-image>
 
@@ -1009,84 +990,81 @@ It is illegal to ride a PMD on the road, punishment is up to $5000 fine and/or 6
 
     <a-assets>
       <!-- Multiple source video. -->
-      <video id="pmd_1" style="display:none" autoplay="false" crossorigin="anonymous" playsinline webkit-playsinline>
+      <video id="pmd_1" style="display:none" autoplay="false" crossorigin="anonymous" webkit-playsinline playsinline>
           <!-- Native HLS video source. -->
           <!-- MP4 video source. -->
           <source type="video/mp4"
-               src="video/pmd_1.mp4" />
+               src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Fpmd_1.mp4?1542861502486" />
         </video>
 
-      <video id="pmd_2" style="display:none" autoplay="false" crossorigin="anonymous" playsinline webkit-playsinline>
+      <video id="pmd_2" style="display:none" autoplay="false" crossorigin="anonymous" webkit-playsinline playsinline>
           <!-- Native HLS video source. -->
           <!-- MP4 video source. -->
           <source type="video/mp4"
-               src="video/pmd_2.mp4" />
+               src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Fpmd_2.mp4?1542861502180" />
         </video>
 
-      <video id="pmd_3" style="display:none" autoplay="false" crossorigin="anonymous" playsinline webkit-playsinline>
+      <video id="pmd_3" style="display:none" autoplay="false" crossorigin="anonymous" webkit-playsinline playsinline>
           <!-- Native HLS video source. -->
           <!-- MP4 video source. -->
           <source type="video/mp4"
-               src="video/pmd_3.mp4" />
+               src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Fpmd_3.mp4?1542861502500" />
         </video>
 
-      <video id="pmd_4" style="display:none" autoplay="false" crossorigin="anonymous" playsinline webkit-playsinline>
+      <video id="pmd_4" style="display:none" autoplay="false" crossorigin="anonymous" webkit-playsinline playsinline>
           <!-- Native HLS video source. -->
           <!-- MP4 video source. -->
           <source type="video/mp4"
-               src="video/pmd_4.mp4" />
+               src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Fpmd_4.mp4?1542861502989" />
         </video>
 
-      <video id="pmd_5" style="display:none" autoplay="false" crossorigin="anonymous" playsinline webkit-playsinline>
+      <video id="pmd_5" style="display:none" autoplay="false" crossorigin="anonymous" webkit-playsinline playsinline>
           <!-- Native HLS video source. -->
           <!-- MP4 video source. -->
           <source type="video/mp4"
-               src="video/pmd_5.mp4" />
+               src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Fpmd_5.mp4?1542861503499" />
         </video>
 
-      <video id="bicycle_1" style="display:none" autoplay="false" crossorigin="anonymous" playsinline webkit-playsinline>
+      <video id="bicycle_1" style="display:none" autoplay="false" crossorigin="anonymous" webkit-playsinline playsinline>
           <!-- Native HLS video source. -->
           <!-- MP4 video source. -->
           <source type="video/mp4"
-               src="video/bicycle_1.mp4" />
+               src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Fbicycle_1.mp4?1542861498171" />
         </video>
 
-      <video id="bicycle_2" style="display:none" autoplay="false" crossorigin="anonymous" playsinline webkit-playsinline>
+      <video id="bicycle_2" style="display:none" autoplay="false" crossorigin="anonymous" webkit-playsinline playsinline>
           <!-- Native HLS video source. -->
           <!-- MP4 video source. -->
           <source type="video/mp4"
-               src="video/bicycle_2.mp4" />
+               src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Fbicycle_2.mp4?1542861501862" />
         </video>
 
       <video id="bicycle_3" style="display:none" autoplay="false" crossorigin="anonymous" playsinline webkit-playsinline>
           <!-- Native HLS video source. -->
           <!-- MP4 video source. -->
           <source type="video/mp4"
-               src="video/bicycle_3.mp4" />
+               src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Fbicycle_3.mp4?1542861501379" />
         </video>
 
       <video id="bicycle_4" style="display:none" autoplay="false" crossorigin="anonymous" playsinline webkit-playsinline>
           <!-- Native HLS video source. -->
           <!-- MP4 video source. -->
           <source type="video/mp4"
-               src="video/bicycle_4.mp4" />
+               src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Fbicycle_4.mp4?1542861501976" />
         </video>
 
-      <video id="bicycle_5" style="display:none" autoplay="false" crossorigin="anonymous" playsinline webkit-playsinline>
+      <video id="bicycle_5" style="display:none" autoplay="false" crossorigin="anonymous" webkit-playsinline playsinline>
           <!-- Native HLS video source. -->
           <!-- MP4 video source. -->
           <source type="video/mp4"
-               src="video/bicycle_5.mp4" />
+               src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Fbicycle_5.mp4?1542861502520" />
         </video>
 
 
-      <img id="pmd" crossorigin="anonymous" src="image/pmd.png">
-      <img id="bicycle" crossorigin="anonymous" src="image/bicycle.png">
+      <img id="pmd" crossorigin="anonymous" src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Fpmd.png?1542861426607">
+      <img id="bicycle" crossorigin="anonymous" src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Fbicycle.png?1542861427957">
     </a-assets>
     <!--  <a-video src="#video" width="20" height="10"  position="0 12 5" play-on-window-click></a-video> -->
-
-
   </a-scene>
 </body>
-
 </html>
