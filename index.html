@@ -702,6 +702,17 @@
       location.reload();
     }
   });
+  
+  AFRAME.registerComponent('groupplay', {
+    init: function() {
+      this.el.addEventListener("click", this.onClick.bind(this));
+    },
+    onClick: function() {
+      var vid = document.getElementById('group_video');
+      vid.play();
+    }
+  });
+  
 </script>
 
 
@@ -784,6 +795,7 @@
     <!--   Side Path -->
     <a-box id="leftSide" position="-11.5 0 0" rotation="-90 0 0" scale="1.5 20 1.5" width="2" height="60" color="#d3d3d3"></a-box>
 
+    
     <!--   Ground Path -->
     <a-plane id="greenPatch" position="0 -0.99999 0" rotation="-90 0 0" scale="1 20 1" width="60" height="60" color="#228b22"></a-plane>
 
@@ -794,6 +806,11 @@
 
     <a-entity id="NumberOne" position="1 3 5" geometry="primitive: plane; height: 1; width: 5" text="color: white; align: center; value: Start Game; width: 5" start-game></a-entity>
 
+    
+    <a-entity id="video_group">
+      <a-video src="#group_video" width="20" height="10" rotation="0 180 0" position="0 6 18"  groupplay></a-video>
+    </a-entity>
+    
     <!-- <a-entity id="display" position="-3 7 5" geometry="primitive: plane; height: 2; width: 5" material="color: teal" text="color: white; align: center; value: 1; width: 5"></a-entity> -->
 
     <a-text value="Select Your Vehicle" width="20" position="-4 5 -25" height="10" color="#000000"></a-text>
@@ -1058,6 +1075,13 @@ It is illegal to ride a PMD on the road, punishment is up to $5000 fine and/or 6
           <!-- MP4 video source. -->
           <source type="video/mp4"
                src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2Fbicycle_5.mp4?1542861502520" />
+        </video>
+      
+      <video id="group_video" style="display:none" autoplay="false" crossorigin="anonymous" webkit-playsinline playsinline>
+          <!-- Native HLS video source. -->
+          <!-- MP4 video source. -->
+          <source type="video/mp4"
+               src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2FICT2x01.mp4?1543030310754" />
         </video>
 
 
