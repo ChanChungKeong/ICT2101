@@ -62,7 +62,7 @@ Admin is able to edit the different number of objects in the game.
 Q. Currently what platform support the AMS System?
 
 ```
-A. iOS Device(10.0 and Up), Android Device, Windows (Tested on Chrome,Firefox and IE)
+A. Android Device, Windows (Tested on Chrome,Firefox and IE)
 ```
 
 Q. How do i access the game?
