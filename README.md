@@ -36,7 +36,7 @@ Once player has ended the level, they will be shown a Thank you for playing scre
 Q. Currently what platform support the AMS System?
 
 ```
-A. iOS Device(10.0 and Up), Android Device, Windows (Tested on Chrome,Firefox and IE)
+A. Android Device, Windows (Tested on Chrome,Firefox and IE)
 ```
 
 Q. How do i access the game?
@@ -46,9 +46,10 @@ A. Access the game via this link: http://ict2x01group4.tk/
 ```
 
 
+
 ### Video Demo
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=v=HEd4S-fE0I8
-" target="_blank"><img src="http://img.youtube.com/vi/v=HEd4S-fE0I8/0.jpg" 
+<a href="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2FICT2x01.mp4?1543030310754
+" target="_blank"><img src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2FVideo%20Image.PNG?1543031162011" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
