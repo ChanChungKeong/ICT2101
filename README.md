@@ -9,7 +9,7 @@ Active Mobility Safety (AMS) VR educates safe riding practices to cyclists and p
 ## Project Framework
 aFrame is a web framework that is used for this project to build on the virtual reality (VR) experience. It is based on top of HTML and accessible by a web/mobile browser application. Mobile devices which supports VR will be able to use headsets such as google cardboard to play the game. 
 
-## Getting Started (Usage of Player and SCTF Members, Include some screencaps)
+## Getting Started
 
 [Player]
 
@@ -71,6 +71,10 @@ Q. How do i access the game?
 A. Access the game via this link: http://ict2x01group4.tk/
 ```
 
+Q. I had encountered a bug during gameplay
+```
+A. Please submit your bugs under issues
+```
 
 ### Video Demo
 <a href="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2FICT2x01.mp4?1543030310754
