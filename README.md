@@ -75,7 +75,7 @@ A. Access the game via this link: http://ict2x01group4.tk/
 ### Video Demo
 <a href="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2FICT2x01.mp4?1543030310754
 " target="_blank"><img src="https://cdn.glitch.com/a3d413ca-9cb1-43f2-943d-1883b2b11754%2FVideo%20Image.PNG?1543031162011" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+alt="IMAGE ALT TEXT HERE" border="10" /></a>
 
 
 ### Feedback and Bugs reporting
